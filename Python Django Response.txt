@@ -1,0 +1,24 @@
+from django.http import HttpResponse
+
+def myview(request):
+    return HttpResponse("return this string")
+
+
+
+
+
+from django.http import JsonResponse
+
+def myview(request):
+    return JsonResponse({'mystring':"return this string"})
+
+
+
+
+from django.http import HttpResponse
+    def Index(request):
+        text = """<h1>Hello World</h1>"""
+        return HttpResponse(text)   
+
+
+

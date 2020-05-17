@@ -1,0 +1,57 @@
+Create new DjangoProject
+============================
+python "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Scripts\django-admin.py" startproject crud
+
+
+How to run the project
+=========================
+cd projectname(crud)
+python manage.py runserver
+
+Stop or cancel the runing process
+===================================
+ctrl+c
+
+
+Project's Structure(project : is solution) , we can create multiple app in one project
+============================
+crud
+	crud		
+			settings.py*: we can keep project/app configuratino in this
+				   : db conn, session etc.
+
+			__init__.py: initialization 
+			wsgi.py    : 
+			urls.py    *: navigation 
+
+	mapnage.py	: application manager (start,stop)
+		
+
+Create app in project
+=============================
+python "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Scripts\django-admin.py" startapp ecomm
+
+
+App's structure
+	test.py
+	views.py
+	models.py
+	app.py
+	admin.py
+
+
+
+Add your code or customize the code:
+======================================
+1. Create project
+2. Create app
+3. Add app in settings.py
+4. Add the app urls path in Project's urls.py file 
+	from django.urls import path,include
+	path('',include('ecomm.urls')),   #'' : landing app / default 
+
+5. Add urls.py file in app 
+6. Add/create function in views.py
+7. Add template folder in app , then add new folder with (app name) within template
+
+	

@@ -1,0 +1,16 @@
+Thread: is process/task 
+============================
+Multi Threading : multiple task 
+
+
+MOdule
+	import threading
+	import time 
+	
+	functions:
+		Thread()
+		start()
+		join()
+		
+	
+	

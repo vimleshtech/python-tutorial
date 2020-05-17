@@ -1,0 +1,37 @@
+Machine Learning:
+========================
+Before talking about machine learning lets talk about another concept that is called data mining. Data mining is a technique of examining a large pre-existing database and extracting new information from that database, it’s easy to understand, right, machine learning does the same, in fact, machine learning is a type of data mining technique.
+
+Here’s is a basic definition of machine learning –
+“Machine Learning is a technique of parsing data, learn from that data and then apply what they have learned to make an informed decision”
+
+
+
+
+Deep Learning: 
+========================
+
+Deep learning is actually a subset of machine learning. It technically is machine learning and functions in the same way but it has different capabilities.
+
+The main difference between deep and machine learning is, machine learning models become better progressively but the model still needs some guidance. If a machine learning model returns an inaccurate prediction then the programmer needs to fix that problem explicitly but in the case of deep learning, the model does it by himself. Automatic car driving system is a good example of deep learning.
+
+
+
+Let’s take an example to understand both machine learning and deep learning –
+Suppose we have a flashlight and we teach a machine learning model that whenever someone says “dark” the flashlight should be on, now the machine learning model will analyse different phrases said by people and it will search for the word “dark” and as the word comes the flashlight will be on but what if someone said “I am not able to see anything the light is very dim”, here the user wants the flashlight to be on but the sentence does not the consist the word “dark” so the flashlight will not be on. That’s where deep learning is different from machine learning. If it were a deep learning model it would on the flashlight, a deep learning model is able to learn from its own method of computing.
+ 
+Artificial intelligence: 
+Now if we talk about AI, it is completely a different thing from Machine learning and deep learning, actually deep learning and machine learning both are the subsets of AI. There is no fixed definition for AI, you will find a different definition everywhere, but here is a definition that will give you idea of what exactly AI is.
+“AI is a ability of computer program to function like a human brain ”
+
+AI means to actually replicate a human brain, the way a human brain thinks, works and functions. The truth is we are not able to establish a proper AI till now but we are very close to establish it, one of the examples of AI is Sophia, the most advanced AI model present today. The reason we are not able to establish proper AI till now is, we don’t know the many aspects of the human brain till now like why do we dream ? etc.
+
+Why people relate machine learning and deep learning with artificial intelligence?
+Machine learning and deep learning is a way of achieving AI, which means by the use of machine learning and deep learning we may able to achieve AI in future but it is not AI.
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+DataScience & ML
+=======================
+
+--graphs
+matplotlib
+seaborn
+
+
+--algo : Regression, Corr, DC, SVM ...
+sklearn
+
+---web automation 
+requests
+bs4
+
+--array(nd array) , dataframe i.e. table
+numpy
+pandas : is inbuilt to manage the dataframe(table)
+	cd "python path\scripts\"
+
+	pip install pandas
+
+
+
+
+
+
+
+ 
+
+
+

@@ -1,0 +1,88 @@
+Install MySQL Server:
+	https://dev.mysql.com/downloads/windows/installer/5.7.html
+DB Server
+==================
+	-My SQL Serever
+	  host(server/computer) name 	: name / ip 
+		-localhost is name of the server if your python and database on same machine
+	  user 				: root
+	  password			: <root>
+	  database			:		
+
+	Basic SQL commands:
+	=====================	
+	show databases;			--show list of existing database
+	create database <dbname>;	--create new database
+	use <dbname>;			--use/switch database 
+	
+	show tables;			--show list of existing tables
+	
+	create table <tblname>(<col1> int,<col2> varchar(100));		--create new table
+						-varchar : alpha numeric 
+			
+	desc	<tblname>; 		--show details of table 
+	
+	insert into <tblname>(col1,col2) values(1,'raman');    --save new data/row in table
+	
+	select * from <tblname>;  			--show data from table, * : show all columns
+
+	select name from <tblname>;			--show particular column
+
+
+	select * from <tblname> where id =1;		-- show selected rows
+
+	delete from <tblname>				--delete all rows/data
+
+	delete from <tblname> where id =1;		--delete selected row/data
+				where name='raman';
+				where id>2;
+				where id between 1 and 5;										
+
+	update <tblname> set id =100, name ='jatin' where id =1;--update data /modify existing data
+	
+	
+
+
+Python Connector setup or installation
+======================================
+	Open cmd/DOS command prompt
+	>cd "python script path"
+	
+	>pip install mysql-connector 
+	
+Python Code/Script
+=======================================
+import mysql.connector as c
+
+#establish the connection between python and my sql server database 
+con = c.connect(host="localhost",user="root",password="root",database="mylearning2")
+
+
+
+
+OOPS:
+==================
+Constructor: is function which invoke/call/run/execute automatically when object will create
+	   : def __init__() : is inbuilt function where we can initialize the data/variable 
+	   	
+Deconstructor: is function which invoke automatically when object will be deleted 
+	     : def __del__():		is inbuilt function 
+
+
+
+
+
+
+			 	
+
+
+
+
+
+
+
+
+
+
+
+	

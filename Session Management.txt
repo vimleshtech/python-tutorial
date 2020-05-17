@@ -1,0 +1,30 @@
+***********************************************
+Cookies : 
+---------
+response.set_cookie('key',value)
+
+
+Session : server side
+---------
+
+response.session['key'] = value 
+
+
+Sample
+---------------------
+def test(request,value='abcd'):
+	response = HttpResponse('ssss %s',value)
+
+	response.set_cookie('key',value)
+	response.session['key'] = value 
+	return response 
+
+***********************************************
+----------- READ ------------------------------------------
+if 'key' in request.COOKIES:
+	newkey = request.COOKIES['key']
+
+if 'key' in request.session:
+	sess_key = request.session['key']
+
+

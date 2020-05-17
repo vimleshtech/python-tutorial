@@ -1,0 +1,57 @@
+#Check your leap year
+year=int(input("Enter year to be checked:")) 
+if(year%4==0 and year%100!=0 or year%400==0): 
+	print("The year is a leap year!) 
+else: 
+	print("The year isn't a leap year!)
+
+#iterate dict
+statesAndCapitals = { 
+                     'Gujarat' : 'Gandhinagar', 
+                     'Maharashtra' : 'Mumbai', 
+                     'Rajasthan' : 'Jaipur', 
+                     'Bihar' : 'Patna'
+                    } 
+                      
+print('List Of given states:\n') 
+  
+# Iterating over keys 
+for state in statesAndCapitals: 
+    print(state) 
+
+
+# Iterating over values 
+for capital in statesAndCapitals.values(): 
+    print(capital) 
+
+
+
+# Iterating over values 
+for state, capital in statesAndCapitals.items(): 
+    print(state, ":", capital) 
+
+
+
+#delete the key
+Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
+del Dict ['Charlie']
+print Dict
+
+
+
+#keys
+for key in Dict.keys():
+    if key in Boys.keys():
+        print True
+    else:       
+        print False
+
+
+#sorting
+Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}
+Boys = {'Tim': 18,'Charlie':12,'Robert':25}
+Girls = {'Tiffany':22}
+Students = Dict.keys()
+Students.sort()
+for S in Students:
+      print":".join((S,str(Dict[S])))
